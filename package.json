@@ -1,0 +1,40 @@
+{
+  "name": "volume-api",
+  "version": "1.0.0",
+  "description": "Listens for volume control requests via HTTP",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpinela/volume-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpinela/volume-api/issues"
+  },
+  "homepage": "https://github.com/bpinela/volume-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.12.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "loudness": "^0.4.2"
+  }
+}
